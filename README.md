@@ -53,10 +53,5 @@ This model predicts one of the following 7 emotions:
 ```bash
 git clone https://github.com/yourusername/emotion-detector.git
 cd emotion-detector
-
-# (Optional) Create a virtual environment
-python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
-
 pip install -r requirements.txt
 python app.py
