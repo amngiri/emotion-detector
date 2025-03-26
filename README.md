@@ -13,7 +13,7 @@ For real-time live emotion detection, users can run the `app_web_cam.py` file lo
 
 ## 🚀 Demo
 
-👉 [Try it on Hugging Face Spaces](https://huggingface.co/spaces/YOUR_USERNAME/YOUR_SPACE_NAME)  
+👉 [Try it on Hugging Face Spaces](https://huggingface.co/spaces/GiriAman/emotion-detector)  
 
 ---
 
@@ -53,7 +53,7 @@ This model predicts one of the following 7 emotions:
 ## 🛠️ How to Run Locally
 
 ```bash
-git clone https://github.com/yourusername/emotion-detector.git
+git clone https://github.com/amngiri/emotion-detector.git
 cd emotion-detector
 pip install -r requirements.txt
 ```
