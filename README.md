@@ -1,12 +1,13 @@
-# emotion-detector
 # 👁️‍🗨️ Face Emotion Detection
 
 This project is a real-time face emotion detection app built using **TensorFlow**, **OpenCV**, and **Gradio**, and deployed on **Hugging Face Spaces**.
 
 It allows users to:
-- Upload an image (or optionally use their webcam)
+- Upload an image or capture a picture using their device camera
 - Automatically detect human faces
 - Predict the facial emotion using a trained deep learning model
+
+For real-time live emotion detection, users can run the `app_web_cam.py` file locally.
 
 ---
 
@@ -18,7 +19,8 @@ It allows users to:
 
 ## 📦 Contents
 
-- `app.py` – Gradio interface code
+- `app.py` – Gradio interface code for Hugging Face deployment
+- `app_web_cam.py` – Code for real-time webcam-based emotion detection (Run locally)
 - `face_emotion_detection.h5` – Pre-trained Keras model
 - `requirements.txt` – Python dependencies
 - `README.md` – Project description
@@ -35,7 +37,7 @@ This model predicts one of the following 7 emotions:
 - 😀 Happy  
 - 😐 Neutral  
 - 😢 Sad  
-- 😲 Surprise
+- 😲 Surprise  
 
 ---
 
@@ -54,4 +56,12 @@ This model predicts one of the following 7 emotions:
 git clone https://github.com/yourusername/emotion-detector.git
 cd emotion-detector
 pip install -r requirements.txt
-python app.py
+```
+
+
+### Running the Real-Time Webcam Version
+```bash
+python app_web_cam.py
+```
+Ensure that the `face_emotion_detection.h5` model file is in the same directory as `app_web_cam.py`.
+
